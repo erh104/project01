@@ -8,5 +8,6 @@ public class App {
 	public static void main(String[] args) {
 		BST tree = new BST();
 		System.out.println("Successfully built an empty tree!");
+		
 	}
 }

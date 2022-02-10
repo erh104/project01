@@ -33,7 +33,7 @@ Your BST need only store keys, it does **not** need to store key/value pairs.
 		The `X` type is only for nodes that have one valid child. The key for an `X` node should be `NULL` (all caps).
 		Consider the following:
 
-		![Serialization example](images/p1_i2.png "Image2")
+		![Serialization example](images/wp1_i2.png "Image2")
 
 		Calling `serialize()` on this tree should return the String `"R(10),I(5),L(2),X(NULL),I(37),X(NULL),L(45)"`.
 	* `reverse()`: Produce a deep copy of the BST that is reversed (i.e., left children hold keys greater than the current key, 
